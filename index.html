@@ -3,13 +3,18 @@
     <head>
         <title>Spencer Hewitt</title>
         <meta charset="utf-8">
+<!--Stylesheet & Icons-->
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
         <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
         <link rel="icon" type="image/png" href="media/icon.png">        
+<!--Responsive-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--All Scripts Linked-->
         <script src="script.js"></script>
         <script src="http://code.jquery.com/jquery-3.4.0.js"></script>
         <script src="jquery.scrollify.js"></script>
+<!--Scrollify Script for smooth scroll between sections-->
+<!--https://projects.lukehaas.me/scrollify/#home-->
         <script>
                 $(function() {
                   $.scrollify({
@@ -30,63 +35,64 @@
     afterRender:function() {}
                   });
                 });
-
-    $(function(){
-$(".about_images > div:gt(0)").hide();
-
-setInterval(function() { 
-  $('.about_images> div:first')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo('.about_images');
-},  3500);
-});
               </script>
 
     </head>
 
 
+<!--Starts typewriter on page load-->
     <body onload="typewriter_effect()">
 
+        <!--Full page div start-->
             <div id="fullpage" class="panels">
+                <!--Section 1 start : homepage-->
                 <section class="section">
                     <div class="navbar-top">
+                        <!--Navbar-->
                         <span class="navbar-items">
-                            
+                            <!--Navbar links-->
                             <a href="https://github.com/shewitt1"><img src="media/github.svg" alt="github"></a>
                             <a href="https://www.linkedin.com/in/spencerhewitt/"><img src="media/linkedin.svg" alt="linkedin"></a>
                             <a href="mailto: shewitt@unca.edu"><img src="media/mail.svg" alt="email"></a>
                             <a href="media/resume.pdf"><img src="media/img_542830.png" alt="resume" width="20px" height="24px"></a>
                         </span>
                     </div>
+
                     <br/>
+                    <!--Homepage image & Name-->
                     <img src="media/croppedpic.png" alt="frontpage_image" class="img_me" >
                     <h2 class="full_name">Spencer Hewitt</h2>
+                    <!--Typewriter div : starts onload-->
                     <p id="typewriter" class="bio_anim"></p>
             
+                    <!--Bottom arrow : should be on all pages-->
                     <div class="arrow_bottom" >
                             <img src="media/arrowdown.png" alt="nextarrow" width="50px" height="50px">
                     </div>
                 </section>
-                <section class="section" id="about">
 
+                <!--Section 2 start : About Me-->
+                <section class="section" id="about">
                             <div class="section2_header">
                                     <h1>About Me</h1>
                                     </div>
 
+                            <!--Open about me text div-->
                             <div class="about_text">
                                <p>My name is Spencer Hewitt, and I am a Cybersecurity Enthusiast and Web Developer currently located in Asheville, NC. 
-                                   I am attending UNC Asheville for Computer Science, but plan on transferring to either Georgia Tech or UNC Charlotte to pursue cybersecurity. In my free time, I enjoy coding, doing cybersecurity Capture the Flags, and whitewater kayaking.</p>
+                                   I am attending UNC Asheville for Computer Science, but plan on transferring to either Georgia Tech or UNC Charlotte to pursue cybersecurity. In my free time, I enjoy coding, doing cybersecurity Capture the Flags, and whitewater kayaking.
+                                <br>
+                                test
+                                </p>
                             </div>
 
-
+                    <!--Bottom arrow : should be on all pages-->
                     <div class="arrow_bottom" >
                         <img src="media/arrowdown.png" alt="nextarrow" width="50px" height="50px">
                     </div>
                 </section>
 
+                <!--Section 3 start : Skills-->
                 <section class="section" id="skills">
                     
                     <div class="section3_header">

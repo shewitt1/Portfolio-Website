@@ -124,10 +124,10 @@ transform: translate(-50%,-70%);
     padding: 0;
     transform: translate(-50%);
     text-align: center;
-    font-size: 4vh,5vw;
+    font-size: 10vh,5vw;
     line-height: 30px;
-    width: 60%;
-
+    height:50%;
+    width:70%; 
   }
 
   .section3_header {
@@ -156,7 +156,7 @@ transform: translate(-50%,-70%);
         transform:translate(-5%,-50%);
         width:29%;
         height:80%;
-        background-color: rgb(217, 245, 255);
+        background-color: white;
     }
 
     .skills_middle {
@@ -167,7 +167,7 @@ transform: translate(-50%,-70%);
         transform:translate(-50%,-50%);
         width:29%;
         height:80%;
-        background-color: rgb(217, 245, 255);
+        background-color:white;
     }
     
     .jobs_right {
@@ -178,5 +178,5 @@ transform: translate(-50%,-70%);
         transform:translate(-95%,-50%);
         width:29%;
         height:80%;
-        background-color: rgb(217, 245, 255);
+        background-color:white;
     }
