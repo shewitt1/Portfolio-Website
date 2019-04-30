@@ -12,30 +12,6 @@
 <!--All Scripts Linked-->
         <script src="script.js"></script>
         <script src="http://code.jquery.com/jquery-3.4.0.js"></script>
-        <script src="jquery.scrollify.js"></script>
-<!--Scrollify Script for smooth scroll between sections-->
-<!--https://projects.lukehaas.me/scrollify/#home-->
-        <script>
-                $(function() {
-                  $.scrollify({
-                    section : ".section",
-                    interstitialSection : "",
-    easing: "easeOutExpo",
-    scrollSpeed: 1400,
-    offset : 0,
-    scrollbars: true,
-    standardScrollElements: "",
-    setHeights: true,
-    overflowScroll: true,
-    updateHash: true,
-    touchScroll:true,
-    before:function() {},
-    after:function() {},
-    afterResize:function() {},
-    afterRender:function() {}
-                  });
-                });
-              </script>
 
     </head>
 
@@ -43,6 +19,8 @@
 <!--Starts typewriter on page load-->
     <body onload="typewriter_effect()">
 
+
+        <div class="centerline"></div>
         <!--Full page div start-->
             <div id="fullpage" class="panels">
                 <!--Section 1 start : homepage-->
@@ -57,7 +35,6 @@
                             <a href="media/resume.pdf"><img src="media/img_542830.png" alt="resume" width="20px" height="24px"></a>
                         </span>
                     </div>
-
                     <br/>
                     <!--Homepage image & Name-->
                     <img src="media/croppedpic.png" alt="frontpage_image" class="img_me" >
@@ -66,9 +43,6 @@
                     <p id="typewriter" class="bio_anim"></p>
             
                     <!--Bottom arrow : should be on all pages-->
-                    <div class="arrow_bottom" >
-                            <img src="media/arrowdown.png" alt="nextarrow" width="50px" height="50px">
-                    </div>
                 </section>
 
                 <!--Section 2 start : About Me-->
@@ -86,10 +60,7 @@
                                 </p>
                             </div>
 
-                    <!--Bottom arrow : should be on all pages-->
-                    <div class="arrow_bottom" >
-                        <img src="media/arrowdown.png" alt="nextarrow" width="50px" height="50px">
-                    </div>
+                   
                 </section>
 
                 <!--Section 3 start : Skills-->
@@ -114,17 +85,13 @@
                     </div>
 
 
-                    <div class="arrow_bottom" >
-                        <img src="media/arrowdown.png" alt="nextarrow" width="50px" height="50px">
-                    </div>
+                    
                 </section>
 
                 <section class="section" id="projects">
                     
                     <h1>Section 4</h1>
-                    <div class="arrow_bottom" >
-                        <img src="media/arrowdown.png" alt="nextarrow" width="50px" height="50px">
-                    </div>
+                    
                 </section>
 
             </div>

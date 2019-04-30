@@ -33,7 +33,7 @@ body {
     background-color: rgb(217, 245, 255);
 }
 #fullpage section:nth-child(3) {
-    background-color: rgb(253, 230, 237);
+    background-color: rgb(253, 230, 237); /* sets background color for each child */
 }
 #fullpage section:nth-child(4) {
     background-color: rgb(217, 245, 255);
@@ -44,7 +44,9 @@ body {
 
 .navbar-items {
     position:absolute;
-    right:0;
+    top:72%;
+    left:50%;
+    transform:translate(-50%);
 }
 
 .navbar-items img {
@@ -60,9 +62,9 @@ body {
 
 .full_name {
     position: relative;
-top: 70%;
-left: 50%;
-transform: translate(-50%,-70%);
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-65%);
 }
 
 .bio_anim {
@@ -89,7 +91,7 @@ transform: translate(-50%,-70%);
 }
 
 .arrow_bottom {
-    position:absolute;
+    position:fixed;
     bottom:0;
     width:50px;
     height:50px;
@@ -97,8 +99,6 @@ transform: translate(-50%,-70%);
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    left:50%;
-    transform:translate(-50%);
 }
 
 
@@ -179,4 +179,14 @@ transform: translate(-50%,-70%);
         width:29%;
         height:80%;
         background-color:white;
+    }
+
+    .centerline {
+        height:100vh;
+        position:fixed;
+        border:1px solid black;
+        top:0;
+        left:50%;
+        transform:translate(-50%);
+        display:none;
     }
