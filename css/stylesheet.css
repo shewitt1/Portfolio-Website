@@ -312,3 +312,9 @@ body {
   text-decoration: none;
   transition: color 0.4s ease;
 }
+.menu-wrap .menu > div > div > ul > li > a:hover {
+    opacity:.4;
+    transition:opacity .5s ease;
+
+  }
+
