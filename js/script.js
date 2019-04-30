@@ -17,7 +17,6 @@ function typewriter_effect() {
 
 
 }
-document.getElementById('arrow_bottom').style.left == window.innerWidth/2;
 
 
 
