@@ -17,11 +17,12 @@ function typewriter_effect() {
 }
 
 function daymode() {
-    document.getElementById('sections').style.backgroundColor == "blue";
+    document.getElementById('fullpage').style.backgroundColor = "rgb(253, 230, 237)";
 }
 
 function nightmode() {
-
+    document.getElementById('fullpage').style.backgroundColor = "rgb(47, 47, 88)";
+    document.getElementsByTagName('h1').style.backgroundColor == "white";
 }
 
 function checktime() {
