@@ -308,5 +308,70 @@ body {
 
   }
 
+.mode {
+    position:fixed;
+    right:15px;
+    top:10px;
+    
+}
 
+.mode .toggler2 {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    z-index: 2;
+    cursor: pointer;
+    width: 65px;
+    height: 35px;
+    opacity: 0;
+  }
+
+.mode .modemenu {
+    position:absolute;
+    top:60px;
+    right:0px;
+    width:300px;
+    height:300px;
+    border-radius:20%;
+    background-color:var(--overlay-color);
+    opacity:0;
+  overflow: hidden;
+}
+.mode .modemenu p {
+    position:relative;
+    top:25%;
+    left:50%;
+    transform:translate(-50%,-25%);
+    text-align:center;
+    padding:20px;
+    opacity:0;
+}
+.mode .toggler2:checked ~ .modemenu {
+    opacity:1;
+    transition: opacity 0.4s ease;
+  }
+
+  .mode .toggler2:checked ~ .modemenu p {
+    opacity:1;
+    transition: opacity 0.4s ease;
+  }
+
+  .mode .modemenu .buttons {
+    position: relative;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 150px;
+    height: 30px;
+    text-align: center;
+  }
+
+  .mode .modemenu .buttons button {
+      background-color: var(--overlay-color);   
+      border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  }
 

@@ -22,6 +22,17 @@
     <div class="centerline"></div>
     <!--Full page div start-->
     <div id="fullpage" class="panels">
+        <div class="mode">
+          <input type="checkbox" class="toggler2" />
+            <h3>MODE</h3>
+            <div class="modemenu">
+              <p>The mode will automatically change to night mode at 9pm EST, and then back to day mode at 9am EST.</p>
+              <div class="buttons">
+              <button onclick="daymode()">DAY</button>
+              <button onclick="nightmode()">NIGHT</button>
+              </div>
+            </div>
+          </div>
       <div class="menu-wrap">
         <input type="checkbox" class="toggler" />
         <div class="hamburger"><div></div></div>
@@ -39,7 +50,8 @@
         </div>
       </div>
       <!--Section 1 start : homepage-->
-      <section class="section">
+      <section class="section" id="sections">
+        
         <div class="navbar-top">
           <!--Navbar-->
           <span class="navbar-items">
