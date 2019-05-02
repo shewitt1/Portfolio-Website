@@ -14,11 +14,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--All Scripts Linked-->
     <script src="../js/script.js"></script>
-    <script src="http://code.jquery.com/jquery-3.4.0.js"></script>
   </head>
 
   <!--Starts typewriter on page load-->
-  <body>
+  <body onload="checktime()">
     <div class="centerline"></div>
     <!--Full page div start-->
     <div id="fullpage" class="panels">
@@ -41,6 +40,31 @@
       <section class="section" id="projects">
           <div class="section4_header">
         <h1>Projects</h1>
+          </div>
+
+          <div class="projects_container">
+            <div class="projects_left">
+              <img src="../media/discord.png" width="100%" height="100%">
+            </div>
+            <div class="project1_info">
+              Discord Bot made for my server.
+              <br/>
+              <a href="https://discord.gg/syFvdpE">Project</a>
+              <a href="https://github.com/shewitt1/SpencieBot">Code</a>
+            </div>
+            <div class="projects_center">
+                <img src="../media/icon.png" width="100%" height="100%">
+              </div>
+              <div class="project2_info">
+                The website you are on now.
+                <br/>
+                <a href="../index.html">Project</a>
+                <a href="https://github.com/shewitt1/Portfolio-Website">Code</a>
+              
+            </div>
+            <div class="projects_right">
+              <h1 id="project3">N/A</h1>
+            </div>
           </div>
       </section>
     </div>

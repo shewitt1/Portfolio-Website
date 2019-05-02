@@ -14,33 +14,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--All Scripts Linked-->
     <script src="../js/script.js"></script>
-    <script src="http://code.jquery.com/jquery-3.4.0.js"></script>
   </head>
 
   <!--Starts typewriter on page load-->
-  <body>
+  <body onload="checktime()">
     <div class="centerline"></div>
     <!--Full page div start-->
     <div id="fullpage" class="panels">
-      <div class="menu-wrap">
-        <input type="checkbox" class="toggler" />
-        <div class="hamburger"><div></div></div>
-        <div class="menu">
-          <div>
-            <div>
-              <ul style="padding-left: 0px;">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler" />
+            <div class="hamburger" id="hamburger"><div id="burger"></div></div>
+            <div class="menu">
+              <div id="overlay">
+                <div>
+                  <ul style="padding-left: 0px;" >
+                    <li><a href="../index.html" style="color:black;" id="overlaytext">Home</a></li>
+                    <li><a href="about.html" style="color:black;" id="overlaytext2">About</a></li>
+                    <li><a href="projects.html" style="color:black; " id="overlaytext3">Projects</a></li>
+                    <li><a href="contact.html" style="color:black;" id="overlaytext4">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
       <section class="section" id="contact">
         <div class="section3_header">
           <h1>Contact</h1>
+        </div>
+
+        <div class="contact_container">
+            <form name="contactform" method="post" action="send_form_email.php">
+                  <input type="text" name="name" value="Name" id="form_name">
+                  <input type="text" name="message" value="Message" id="form_message">
+                  <input type="button" name="sumbit" value ="Send Message" id="form_submit">
+                </form>
+
         </div>
 
       </section>

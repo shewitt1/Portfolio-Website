@@ -371,5 +371,134 @@ body {
     color:black;
     transition:all 1s ease;
   }
+
+  .contact_container {
+    position:fixed;
+    width:70%;
+    height:50%;
+    border:1px solid black;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  }
+
+  #form_name {
+    position:absolute;
+    top:10%;
+    left:50%;
+    transform:translate(-50%,-10%);
+  }
+
+  #form_message {
+    position:absolute;
+    top:25%;
+    left:50%;
+    transform:translate(-50%,-25%);
+    width:250px;
+    height:80px;
+    text-align:top;
+  }
+
+  #form_submit {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-35%);
+  }
+
+  .projects_container {
+    width:70%;
+    height:70%;
+    position: absolute;
+    top:37%;
+    left:50%;
+    transform:translate(-50%,-20%);
+  }
+
+  .projects_left {
+    position:absolute;
+    width:25%;
+    height:50%;
+    top:20%;
+    left:10%;
+    transform:translate(-10%,-20%);
+    
+
+  }
+  .projects_center {
+    position:absolute;
+    width:25%;
+    height:50%;
+    top:20%;
+    left:50%;
+    transform:translate(-50%,-20%);
+    
+    
+  }
+  .projects_right {
+    position:absolute;
+    width:25%;
+    height:50%;
+    top:20%;
+    left:90%;
+    transform:translate(-90%,-20%);
+
+    
+  }
+  .project1_info a {
+    text-decoration:none;
+    color:black;
+    align-content:center;
+
+    
+
+  }
+  .project1_info {
+    position:absolute;
+    width:25%;
+    height:3%;
+    top:65%;
+    left:10%;
+    transform:translate(-10%,-65%);
+  }
+  .project2_info a {
+    text-decoration:none;
+    color:black;
+    padding:3px;
+    
+
+  }
+  .project2_info {
+    position:absolute;
+    width:25%;
+    height:3%;
+    top:65%;
+    left:50%;
+    transform:translate(-50%,-65%);
+    color:black;
+  }
+  .project3_info a {
+    text-decoration:none;
+    color:black;
+    padding:3px;
+    
+
+  }
+  .project3_info {
+    position:absolute;
+    width:25%;
+    height:3%;
+    top:65%;
+    left:90%;
+    transform:translate(-10%,-90%);
+    color:black;
+  }
+
+  #project3 {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  }
   
 

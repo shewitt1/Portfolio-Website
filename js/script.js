@@ -61,10 +61,16 @@ function nightmode() {
   document.getElementById('resume').src = "./media/resumewhite.png";
 
 
-
    
 }
 
 function checktime() {
+  if (hour > 21 || hour < 9) {
+    nightmode();
+  } else{
+    daymode();
+  }
+
+  setInterval(checktime, 6000000)
 
 }
