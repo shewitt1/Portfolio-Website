@@ -18,11 +18,20 @@ function typewriter_effect() {
 
 function daymode() {
     document.getElementById('fullpage').style.backgroundColor = "rgb(253, 230, 237)";
+    document.getElementById('bio').style.color = "black";
+    document.getElementById('modemenu').style.backgroundColor = "rgba(253, 220, 229, 0.9)";
+    document.getElementById('mode').style.color = "black";
+    document.getElementById('modetext2').style.color = "black";
 }
 
 function nightmode() {
-    document.getElementById('fullpage').style.backgroundColor = "rgb(47, 47, 88)";
-    document.getElementsByTagName('h1').style.backgroundColor == "white";
+    document.getElementById('fullpage').style.backgroundColor = "rgb(41, 41, 41)";
+    document.getElementById('bio').style.color = "white";
+    document.getElementById('mode').style.color = "white";
+    document.getElementById('modetext2').style.color = "white";
+   /* document.getElementsByTagName('a').style.backgroundColor = "white";*/
+   document.getElementById('modemenu').style.backgroundColor = "rgb(50, 50, 50,0.9)";
+   
 }
 
 function checktime() {

@@ -11,9 +11,9 @@
       <link rel="icon" type="image/png" href="media/icon.png" />
     <!--Responsive-->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--All Scripts Linked-->
+    <!--All Scripts Linked-->  
     <script src="js/script.js"></script>
-    <script src="http://code.jquery.com/jquery-3.4.0.js"></script>
+
   </head>
 
   <!--Starts typewriter on page load-->
@@ -23,9 +23,9 @@
     <div id="fullpage" class="panels">
         <div class="mode">
           <input type="checkbox" class="toggler2" />
-            <h3>MODE</h3>
-            <div class="modemenu">
-              <p>The mode will automatically change to night mode at 9pm EST, and then back to day mode at 9am EST.</p>
+            <h3 id="mode" class="modetext">MODE</h3>
+            <div class="modemenu" id="modemenu">
+              <p id="modetext2" class="modetext2">The mode will automatically change to night mode at 9pm EST, and then back to day mode at 9am EST.</p>
               <div class="buttons">
               <button onclick="daymode()">DAY</button>
               <button onclick="nightmode()">NIGHT</button>
@@ -75,10 +75,12 @@
         </div>
         <br />
         <!--Homepage image & Name-->
+        <div class="bio" id="bio">
         <img src="media/croppedpic.png" alt="frontpage_image" class="img_me" />
         <h2 class="full_name">Spencer Hewitt</h2>
         <!--Typewriter div : starts onload-->
         <p id="typewriter" class="bio_anim"></p>
+        </div>
 
       </section>
     </div>
