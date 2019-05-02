@@ -13,7 +13,7 @@
     <!--Responsive-->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--All Scripts Linked-->
-    <script src="../js/script.js"></script>
+    <script src="../js/projects.js"></script>
   </head>
 
   <!--Starts typewriter on page load-->
@@ -21,45 +21,45 @@
     <div class="centerline"></div>
     <!--Full page div start-->
     <div id="fullpage" class="panels">
-      <div class="menu-wrap">
-        <input type="checkbox" class="toggler" />
-        <div class="hamburger"><div></div></div>
-        <div class="menu">
-          <div>
-            <div>
-              <ul style="padding-left: 0px;">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler" />
+            <div class="hamburger" id="hamburger"><div id="burger"></div></div>
+            <div class="menu">
+              <div id="overlay">
+                <div>
+                  <ul style="padding-left: 0px;" >
+                    <li><a href="../index.html" style="color:black;" id="overlaytext">Home</a></li>
+                    <li><a href="about.html" style="color:black;" id="overlaytext2">About</a></li>
+                    <li><a href="projects.html" style="color:black; " id="overlaytext3">Projects</a></li>
+                    <li><a href="contact.html" style="color:black;" id="overlaytext4">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
       <section class="section" id="projects">
           <div class="section4_header">
-        <h1>Projects</h1>
+        <h1 id="section4_header">Projects</h1>
           </div>
 
           <div class="projects_container">
             <div class="projects_left">
               <img src="../media/discord.png" width="100%" height="100%">
             </div>
-            <div class="project1_info">
+            <div class="project1_info" id="project1_info">
               Discord Bot made for my server.
               <br/>
-              <a href="https://discord.gg/syFvdpE">Project</a>
-              <a href="https://github.com/shewitt1/SpencieBot">Code</a>
+              <a href="https://discord.gg/syFvdpE" id="projectlink1">Project</a>
+              <a href="https://github.com/shewitt1/SpencieBot" id="projectlink2">Code</a>
             </div>
             <div class="projects_center">
                 <img src="../media/icon.png" width="100%" height="100%">
               </div>
-              <div class="project2_info">
+              <div class="project2_info" id="project2_info">
                 The website you are on now.
                 <br/>
-                <a href="../index.html">Project</a>
-                <a href="https://github.com/shewitt1/Portfolio-Website">Code</a>
+                <a href="../index.html" id="projectlink3">Project</a>
+                <a href="https://github.com/shewitt1/Portfolio-Website" id="projectlink4">Code</a>
               
             </div>
             <div class="projects_right">
