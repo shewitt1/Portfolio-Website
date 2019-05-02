@@ -7,6 +7,8 @@ var speed = 70; /* sets speed of typing effect */
 var Date = new Date();
 var hour = Date.getHours()
 
+document.cookie = "mode=off";
+
 function typewriter_effect() {
   /* loop that prints out the txt var letter by letter */
   if (i < txt.length) {
@@ -17,6 +19,8 @@ function typewriter_effect() {
 }
 
 function daymode() {
+
+
     document.getElementById('fullpage').style.backgroundColor = "rgb(253, 230, 237)";
     document.getElementById('bio').style.color = "black";
     document.getElementById('modemenu').style.backgroundColor = "rgba(253, 220, 229, 0.9)";
@@ -71,6 +75,6 @@ function checktime() {
     daymode();
   }
 
-  setInterval(checktime, 6000000)
+  setInterval(checktime, 6000000);
 
 }
