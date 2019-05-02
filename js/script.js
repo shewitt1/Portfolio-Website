@@ -22,6 +22,11 @@ function daymode() {
     document.getElementById('modemenu').style.backgroundColor = "rgba(253, 220, 229, 0.9)";
     document.getElementById('mode').style.color = "black";
     document.getElementById('modetext2').style.color = "black";
+    document.getElementById('burger').style.backgroundColor = "black";
+    document.getElementById('button').style.backgroundColor = "rgba(253, 220, 229, 0.9)";
+   document.getElementById('button').style.color = "black";
+   document.getElementById('button2').style.backgroundColor = "rgba(253, 220, 229, 0.9)";
+   document.getElementById('button2').style.color = "black";
 }
 
 function nightmode() {
@@ -30,7 +35,13 @@ function nightmode() {
     document.getElementById('mode').style.color = "white";
     document.getElementById('modetext2').style.color = "white";
    /* document.getElementsByTagName('a').style.backgroundColor = "white";*/
-   document.getElementById('modemenu').style.backgroundColor = "rgb(50, 50, 50,0.9)";
+   document.getElementById('modemenu').style.backgroundColor = "rgba(50, 50, 50,0.9)";
+   document.getElementById('burger').style.backgroundColor = "white";
+   document.getElementById('button').style.backgroundColor = "rgba(50, 50, 50,0.9)";
+   document.getElementById('button').style.color = "white";
+   document.getElementById('button2').style.backgroundColor = "rgba(50, 50, 50,0.9)";
+   document.getElementById('button2').style.color = "white";
+
    
 }
 
