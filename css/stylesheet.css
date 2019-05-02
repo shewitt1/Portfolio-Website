@@ -277,7 +277,7 @@ body {
   padding: 1rem;
 }
 .menu-wrap .menu > div > div > ul > li > a {
-  color: inherit;
+  color: black;
   text-decoration: none;
   transition: color 0.4s ease;
 }

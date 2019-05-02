@@ -27,6 +27,15 @@ function daymode() {
    document.getElementById('button').style.color = "black";
    document.getElementById('button2').style.backgroundColor = "rgba(253, 220, 229, 0.9)";
    document.getElementById('button2').style.color = "black";
+   document.getElementById('overlay').style.backgroundColor = "rgba(253, 220, 229, 0.9)";
+   document.getElementById('overlaytext').style.color = "black";
+   document.getElementById('overlaytext2').style.color = "black";
+   document.getElementById('overlaytext3').style.color = "black";
+   document.getElementById('overlaytext4').style.color = "black";
+   document.getElementById('github').src = "./media/github.svg";
+  document.getElementById('linkedin').src = "./media/linkedin.svg";
+  document.getElementById('email').src = "./media/mail.svg";
+  document.getElementById('resume').src = "./media/img_542830.png";
 }
 
 function nightmode() {
@@ -41,6 +50,17 @@ function nightmode() {
    document.getElementById('button').style.color = "white";
    document.getElementById('button2').style.backgroundColor = "rgba(50, 50, 50,0.9)";
    document.getElementById('button2').style.color = "white";
+   document.getElementById('overlay').style.backgroundColor = "rgba(50, 50, 50,0.9)";
+   document.getElementById('overlaytext').style.color = "white";
+   document.getElementById('overlaytext2').style.color = "white";
+   document.getElementById('overlaytext3').style.color = "white";
+   document.getElementById('overlaytext4').style.color = "white";
+  document.getElementById('github').src = "./media/githubwhite.png";
+  document.getElementById('linkedin').src = "./media/linkedinwhite.png";
+  document.getElementById('email').src = "./media/mailwhite.png";
+  document.getElementById('resume').src = "./media/resumewhite.png";
+
+
 
    
 }
